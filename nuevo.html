@@ -1,46 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
 <title>Parabolas con Java scripts && Canvas</title>
-<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
-<link rel="stylesheet" href="ie.css" type="text/css" charset="utf-8" /> 
+<link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="stylesheet" href="ie.css" type="text/css" /> 
+<link rel="stylesheet" type="text/css" href="nueva.css" />
 <meta charset="utf-8">
 <body>
- <div>
-  <h1>Calculador Grafico</h1>
-  <b>
- <table>
-<br>
-<br>
+<div id="wrap">
+  <div>
+    <h1>Calculador Grafico</h1> <br> <br>  
+  </div>
 
-</div>
   <form>
     <input type="input"   id="">
-    
     <input type="button" id="y_equals_x" value="y= 1x" class="button1" />
     <input type="button" id="parabola" value="parabola" class="button2" />
     <input type="button" id="circle" value="circle" class="button3" />
   </form>
-<br> 
- <br> 
- <article> <table>
-  <form>
-<p> Funcion Cuadratica </p>
-<p> <input type="number"size="4" id="a"> x2+<input type="number" size="4" id="b"> x+<input type="number"size="4" id="c"> =0 </p> 
-<p>dominio</p>
-<input type=id="inicial"> ; <input type=id="finalizar"> =0 </p>
-<p<hidden="text" >Calcular </p>
-<p><input type="button" value="calcular" id="calcular"></p>
-</form> 
-</br>
-</br>
-</article>
-<div id="resultado"></div>
-  <canvas id="main" width="500px" height="600px"></canvas>
-  
- </div>
-  </div>
+  <br> <br> 
+ 
+  <article>
+    <form>
+      <p> Funcion Cuadratica </p>
+      <p> 
+        <input type="number"size="4" id="a"> x2+<input type="number" size="4" id="b"> x+<input type="number"size="4" id="c"> =0 
+      </p> 
 
+      <p>dominio</p>
+      <p><input type=id="inicial"> ; <input type=id="finalizar"> =0 </p>
+      <p<hidden="text" >Calcular </p>
+      <p><input type="button" value="calcular" id="calcular"></p>
+
+    </form> 
+    </br> </br>
+  </article>
+
+  <div id="resultado"></div>
+  <canvas id="main" width="400px" height="400px"></canvas>
+</div>
+<script type="text/javascript" src="js/nuevo.js"></script>
+<script type="text/javascript" src="d3.js"></script>
+<script type="text/javascript" src="d3.min.js"></script>
 
 </body>
-</div>
-</div>
